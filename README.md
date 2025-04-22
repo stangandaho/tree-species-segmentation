@@ -1,12 +1,12 @@
 
-# 🌳 Tree Species Segmentation from Aerial Imagery using YOLO
+# Tree Species Segmentation from Aerial Imagery using YOLO
 This project is an experimental pipeline that applies **deep learning (YOLO architecture)** to detect and classify individual tree species from **high-resolution aerial imagery**. The data includes 31 tree species, raster canopy masks, and multispectral input images.
 
 > ⚠️ **Disclaimer:**  
 > This project is for **testing and prototyping only**. It is not optimized for high accuracy and may perform inconsistently across all species due to factors like class imbalance and spectral similarity.
 
 
-## 📌 Project Overview
+## Project Overview
 - Extract canopy polygons and associate them with tree species
 - Tile aerial imagery and generate YOLO-compatible masks
 - Convert data into training-ready image and label files
@@ -14,7 +14,7 @@ This project is an experimental pipeline that applies **deep learning (YOLO arch
 - Prepare for object detection training using YOLOv5 or YOLOv8
 
 
-## 🧱 Pipeline Overview
+## Pipeline Overview
 
 ### ✅ 1. Preprocessing & Tiling  
 **Script:** `01_clip_image.R`  
